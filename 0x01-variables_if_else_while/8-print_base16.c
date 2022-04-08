@@ -20,8 +20,8 @@ int main(void)
 		if (digit == 57)
 		{
 			digit += 39;
-			++digit;
 		}
+		++digit;
 	}
 	putchar('\n');
 
