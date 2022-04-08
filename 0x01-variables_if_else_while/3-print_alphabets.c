@@ -10,17 +10,17 @@
 
 int main(void)
 {
-	char ch = 'a';
-	char CH = 'A';
+	char lower_case;
+	char upper_case;
 
 	/* print a -z */
-	for (CH; CH <= 'Z'; CH++)
+	for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 	{
-		putchar(CH);
+		putchar(upper_case);
 	}
-	for (ch; ch <= 'z'; ch++)
+	for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
 	{
-		putchar(ch);
+		putchar(lower_case);
 	}
 
 	putchar('\n');
