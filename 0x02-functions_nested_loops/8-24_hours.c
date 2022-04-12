@@ -9,18 +9,18 @@ nclude "main.h"
 void jack_bauer(void)
 
 {
-	int a;
-	int b;
+	int min;
+	int hr;
 
-	for (a = 0; a <= 23; a++)
+	for (hr = 0; hr <= 23; ++hr)
 	{
-		for (b = 0; b <= 59; b++)
+		for (min = 0; min <= 59; ++min)
 		{
-			_putchar (a / 10 + '0');
-			_putchar (a % 10 + '0');
+			_putchar ((hr / 10) + 48);
+			_putchar ((hr % 10) + 48);
 			_putchar (':');
-			_putchar (b / 10 + '0');
-			_putchar (b % 10 + '0');
+			_putchar ((min / 10) + 48);
+			_putchar ((min % 10) + 48);
 			_putchar ('\n');
 
 		}
